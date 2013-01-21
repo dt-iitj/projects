@@ -1,0 +1,21 @@
+import java.awt.*;
+import java.io.*;
+import java.awt.Graphics;
+import java.awt.image.BufferedImage;
+import javax.imageio.ImageIO;
+import java.io.IOException;
+
+public class roadMap extends Frame throws IOException{
+	BufferedImage img = new ImageIcon(ImageIO.read(new File("251px-Jersey.arp.750pix.jpg")));
+	
+	public roadMap(){
+		setTitle("City Map");
+        setSize(800,400);
+        setBackground(Color.GREEN);
+        setVisible(true);
+	}
+	
+	public void paint(Graphics g){
+		
+	}
+}
